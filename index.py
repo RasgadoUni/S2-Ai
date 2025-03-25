@@ -156,8 +156,8 @@ elif tipo_transaccion == 'Compra combinada':
 
 elif tipo_transaccion == 'Anticipo de clientes':
     anticipo = st.number_input("Anticipo de clientes", value=1500)
-    iva = st.number_input("IVA", value=anticipo * 0.16)
-    caja = st.number_input("Caja", value=anticipo + iva)
+    iva_trasladado = st.number_input("IVA", value=anticipo * 0.16)
+    caja = st.number_input("Caja", value=anticipo + iva_trasladado)
 
 elif tipo_transaccion == 'Compra de papelería':
     papelería = st.number_input("Papelería", value=800)
@@ -255,7 +255,7 @@ if st.button("Registrar Transacción"):
             },
             "haber": {
                 "Anticipo de clientes": anticipo,
-                "IVA trasladado": iva
+                "IVA trasladado": iva_trasladado
             }
         }
     elif tipo_transaccion == 'Compra de papelería':
@@ -273,11 +273,12 @@ if st.button("Registrar Transacción"):
         transaccion = {
             "tipo": "Pago de rentas anticipadas",
             "deber": {
-                "Rentas pagadas por anticipado": rentas,
+                
                 "IVA pagado": iva
             },
             "haber": {
-                "Caja": caja
+                "Caja": caja,
+                "Rentas pagadas por anticipado": rentas,
             }
         }
     elif tipo_transaccion == 'Depreciación':
