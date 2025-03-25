@@ -1,0 +1,10 @@
+Imagenes del programa
+![image](https://github.com/user-attachments/assets/ed5378d6-8d2d-4994-9379-b4beefadf476)
+![image](https://github.com/user-attachments/assets/e2589ef8-56c3-4d51-8014-00d737ce7858)
+![image](https://github.com/user-attachments/assets/984a38f6-a7b3-483d-8149-c282c77a5d61)
+![image](https://github.com/user-attachments/assets/6c9e3461-38e0-4a40-9ee0-1f9e12f97973)
+![image](https://github.com/user-attachments/assets/24423e12-17f0-4b3b-af7d-8efb0ed03cd5)
+![image](https://github.com/user-attachments/assets/4961e6c7-4c11-4fb3-aea6-faccdf8f7337)
+![image](https://github.com/user-attachments/assets/3ebeac3d-1e61-4690-98b9-e30a509313e3)
+![image](https://github.com/user-attachments/assets/61c8b99d-0d83-431b-9ab7-f22ccd99cf1b)
+![image](https://github.com/user-attachments/assets/2a4f5aab-0273-4f76-ac7e-82c19cd38d12)
